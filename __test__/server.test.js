@@ -17,6 +17,6 @@ describe("API server", () => {
       gender: "male",
     });
     expect(res.status).toEqual(200);
-    expect(res.text).toEqual("new age = 31");
+    expect(res.text).toEqual("31");
   });
 });

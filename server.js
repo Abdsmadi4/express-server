@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.post("/person", (req, res) => {
   const age = req.query.age;
   const newAge = parseInt(age) + 5;
-  res.status(200).send(`new age = ${newAge}`);
+  res.status(200).send(`${newAge}`);
 });
 
 
